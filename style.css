@@ -2,7 +2,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
     font-weight: normal;
-    background-color: #ff5bc85e;
+    background-color: #ff5bc859 !important;
     outline: none;
 }
 
@@ -15,7 +15,6 @@
 }
 
 .img {
-    /* background-image: url(bg1.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -46,12 +45,12 @@ input {
 
 button {
     box-shadow: inset 6PX 6PX 13PX #fff, 6px 6px 13px rgba(0, 0, 0, .16);
-    background-color: #ecf0f3;
+    background-color: #ecf0f3 !important;
     border: none;
     width: 65px;
     height: 65px;
     border-radius: 50%;
-    color: rgb(26 25 25);
+    color: rgb(26 25 25) !important;
     margin: 0px 0px 21px 28px;
     font-weight: bold;
     font-size: 20px;
