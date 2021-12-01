@@ -20,17 +20,6 @@
     background-size: cover;
 }
 
-
-/* .btnsp {
-    border-radius: 35px;
-    box-shadow: -15px -15px 15px rgb(255 255 255 / 0%), 15px 15px 15px rgb(0 0 0 / 26%), inset -5px -5px 5px rgb(255 255 255 / 55%), inset 5px 5px 5px rgb(0 0 0 / 59%);
-}
-
-.btn {
-    border-radius: 93%;
-    box-shadow: -15px -15px 15px rgb(255 255 255 / 0%), 15px 15px 15px rgb(0 0 0 / 26%), inset -5px -5px 5px rgb(255 255 255 / 55%), inset 5px 5px 5px rgb(0 0 0 / 59%);
-} */
-
 .calculator_grid {
     box-shadow: 6px 6PX 13PX #8f8f8f91, -6px 6PX 13PX #8f8f8f91, 6px 6px 13px rgb(0 0 0 / 0%);
     display: grid;
@@ -62,7 +51,7 @@ button {
     width: 65px;
     height: 65px;
     border-radius: 50%;
-    color: rgb(26, 25, 25);
+    color: rgb(26 25 25);
     margin: 0px 0px 21px 28px;
     font-weight: bold;
     font-size: 20px;
@@ -73,87 +62,6 @@ button {
     border-radius: 42px;
     box-shadow: inset 6PX 6PX 13PX #fff, 6px 6px 13px rgba(0, 0, 0, .16);
     background-color: #ecf0f3;
-}
-
-* {
-    box-sizing: border-box;
-    font-family: sans-serif;
-    font-weight: normal;
-    background-color: #ff8bfea3;
-    outline: none;
-}
-
-.container {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    background-color: #ecf0f3;
-    justify-content: center;
-}
-
-.img {
-    /* background-image: url(bg1.jpg); */
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-/* .btnsp {
-    border-radius: 35px;
-    box-shadow: -15px -15px 15px rgb(255 255 255 / 0%), 15px 15px 15px rgb(0 0 0 / 26%), inset -5px -5px 5px rgb(255 255 255 / 55%), inset 5px 5px 5px rgb(0 0 0 / 59%);
-}
-
-.btn {
-    border-radius: 93%;
-    box-shadow: -15px -15px 15px rgb(255 255 255 / 0%), 15px 15px 15px rgb(0 0 0 / 26%), inset -5px -5px 5px rgb(255 255 255 / 55%), inset 5px 5px 5px rgb(0 0 0 / 59%);
-} */
-
-.calculator_grid {
-    box-shadow: 6px 6PX 13PX #8f8f8f91, -6px 6PX 13PX #8f8f8f91, 6px 6px 13px rgb(0 0 0 / 0%);
-    display: grid;
-    border-radius: 28px;
-    width: 362px;
-    align-content: center;
-    grid-template-columns: repeat(4, 80px);
-}
-
-input {
-    grid-column: span 4;
-    height: 76px;
-    width: 312px;
-    box-shadow: inset -6PX -6PX 13PX #fff, inset 6px 6px 13px rgba(0, 0, 0, .16);
-    background-color: #ecf0f3;
-    border: none;
-    border-radius: 32px;
-    color: rgb(26, 25, 25);
-    text-align: end;
-    margin: 51px 0px 30px 25px;
-    padding: 20px;
-    font-size: 40px;
-}
-
-button {
-    box-shadow: inset 6PX 6PX 13PX #fff, 6px 6px 13px rgba(0, 0, 0, .16);
-    background-color: #ecf0f3;
-    border: none;
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
-    color: rgb(26, 25, 25);
-    margin: 0px 0px 16px 28px;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.equal {
-    width: 144px;
-    border-radius: 42px;
-    box-shadow: inset 6PX 6PX 13PX #fff, 6px 6px 13px rgba(0, 0, 0, .16);
-    background-color: #ecf0f3;
-    font-size: 54px;
-    text-align: center;
-    font-weight: 100;
-    color: red;
 }
 
 h1.htitle {
@@ -173,5 +81,3 @@ button.btnD {
 button.btnC {
     color: red;
 }
-
-bpdy {}
