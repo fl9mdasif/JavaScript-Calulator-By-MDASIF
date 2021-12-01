@@ -2,7 +2,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
     font-weight: normal;
-    background-color: #ff5bc859 !important;
+    background-color: #ff5bc859;
     outline: none;
 }
 
@@ -61,6 +61,7 @@ button {
     border-radius: 42px;
     box-shadow: inset 6PX 6PX 13PX #fff, 6px 6px 13px rgba(0, 0, 0, .16);
     background-color: #ecf0f3;
+    color: red !important;
 }
 
 h1.htitle {
@@ -70,13 +71,13 @@ h1.htitle {
 }
 
 button:hover {
-    color: rgb(0, 178, 209);
+    color: rgb(0, 178, 209) !important;
 }
 
 button.btnD {
-    color: #00ba00;
+    color: #00ba00 !important;
 }
 
-button.btnC {
-    color: red;
+.btnC {
+    color: red !important;
 }
